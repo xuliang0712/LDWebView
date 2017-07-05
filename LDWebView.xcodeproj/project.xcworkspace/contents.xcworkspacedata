@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Quantum.xcodeproj">
+      location = "self:/Users/lichuilei/Desktop/Quantum/LDWebView.xcodeproj">
    </FileRef>
 </Workspace>

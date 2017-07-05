@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BCA840551F0647E20087A3E1"
-               BuildableName = "Quantum.app"
-               BlueprintName = "Quantum"
-               ReferencedContainer = "container:Quantum.xcodeproj">
+               BuildableName = "LDWebView.app"
+               BlueprintName = "LDWebView"
+               ReferencedContainer = "container:LDWebView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BCA8406E1F0647E20087A3E1"
-               BuildableName = "QuantumTests.xctest"
-               BlueprintName = "QuantumTests"
-               ReferencedContainer = "container:Quantum.xcodeproj">
+               BuildableName = "LDWebViewTests.xctest"
+               BlueprintName = "LDWebViewTests"
+               ReferencedContainer = "container:LDWebView.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BCA840791F0647E20087A3E1"
-               BuildableName = "QuantumUITests.xctest"
-               BlueprintName = "QuantumUITests"
-               ReferencedContainer = "container:Quantum.xcodeproj">
+               BuildableName = "LDWebViewUITests.xctest"
+               BlueprintName = "LDWebViewUITests"
+               ReferencedContainer = "container:LDWebView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BCA840551F0647E20087A3E1"
-            BuildableName = "Quantum.app"
-            BlueprintName = "Quantum"
-            ReferencedContainer = "container:Quantum.xcodeproj">
+            BuildableName = "LDWebView.app"
+            BlueprintName = "LDWebView"
+            ReferencedContainer = "container:LDWebView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BCA840551F0647E20087A3E1"
-            BuildableName = "Quantum.app"
-            BlueprintName = "Quantum"
-            ReferencedContainer = "container:Quantum.xcodeproj">
+            BuildableName = "LDWebView.app"
+            BlueprintName = "LDWebView"
+            ReferencedContainer = "container:LDWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BCA840551F0647E20087A3E1"
-            BuildableName = "Quantum.app"
-            BlueprintName = "Quantum"
-            ReferencedContainer = "container:Quantum.xcodeproj">
+            BuildableName = "LDWebView.app"
+            BlueprintName = "LDWebView"
+            ReferencedContainer = "container:LDWebView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

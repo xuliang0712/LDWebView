@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6AFA031F06583B00337120 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6AFA021F06583B00337120 /* UIView+Frame.m */; };
+		BC6AFA061F06774600337120 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6AFA051F06774600337120 /* icon.png */; };
 		BCA8405B1F0647E20087A3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA8405A1F0647E20087A3E1 /* main.m */; };
 		BCA8405E1F0647E20087A3E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA8405D1F0647E20087A3E1 /* AppDelegate.m */; };
 		BCA840611F0647E20087A3E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA840601F0647E20087A3E1 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		BCA840691F0647E20087A3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA840671F0647E20087A3E1 /* LaunchScreen.storyboard */; };
 		BCA840741F0647E20087A3E1 /* QuantumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA840731F0647E20087A3E1 /* QuantumTests.m */; };
 		BCA8407F1F0647E20087A3E1 /* QuantumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA8407E1F0647E20087A3E1 /* QuantumUITests.m */; };
+		BCA8409B1F0657200087A3E1 /* WebviewProgressLine.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA8409A1F0657200087A3E1 /* WebviewProgressLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BCA840561F0647E20087A3E1 /* Quantum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quantum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6AFA011F06583B00337120 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "../UIView+Frame.h"; sourceTree = "<group>"; };
+		BC6AFA021F06583B00337120 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "../UIView+Frame.m"; sourceTree = "<group>"; };
+		BC6AFA051F06774600337120 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		BCA840561F0647E20087A3E1 /* LDWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA8405A1F0647E20087A3E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCA8405C1F0647E20087A3E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BCA8405D1F0647E20087A3E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +51,14 @@
 		BCA840651F0647E20087A3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCA840681F0647E20087A3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCA8406A1F0647E20087A3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCA8406F1F0647E20087A3E1 /* QuantumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA8406F1F0647E20087A3E1 /* LDWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA840731F0647E20087A3E1 /* QuantumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuantumTests.m; sourceTree = "<group>"; };
 		BCA840751F0647E20087A3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCA8407A1F0647E20087A3E1 /* QuantumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA8407A1F0647E20087A3E1 /* LDWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA8407E1F0647E20087A3E1 /* QuantumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuantumUITests.m; sourceTree = "<group>"; };
 		BCA840801F0647E20087A3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA840991F0657200087A3E1 /* WebviewProgressLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebviewProgressLine.h; path = ../WebviewProgressLine.h; sourceTree = "<group>"; };
+		BCA8409A1F0657200087A3E1 /* WebviewProgressLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebviewProgressLine.m; path = ../WebviewProgressLine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC6AFA041F065C0B00337120 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BC6AFA011F06583B00337120 /* UIView+Frame.h */,
+				BC6AFA021F06583B00337120 /* UIView+Frame.m */,
+				BCA840991F0657200087A3E1 /* WebviewProgressLine.h */,
+				BCA8409A1F0657200087A3E1 /* WebviewProgressLine.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		BCA8404D1F0647E20087A3E1 = {
 			isa = PBXGroup;
 			children = (
-				BCA840581F0647E20087A3E1 /* Quantum */,
-				BCA840721F0647E20087A3E1 /* QuantumTests */,
-				BCA8407D1F0647E20087A3E1 /* QuantumUITests */,
+				BCA840581F0647E20087A3E1 /* LDWebView */,
+				BCA840721F0647E20087A3E1 /* LDWebViewTests */,
+				BCA8407D1F0647E20087A3E1 /* LDWebViewUITests */,
 				BCA840571F0647E20087A3E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,16 +110,18 @@
 		BCA840571F0647E20087A3E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCA840561F0647E20087A3E1 /* Quantum.app */,
-				BCA8406F1F0647E20087A3E1 /* QuantumTests.xctest */,
-				BCA8407A1F0647E20087A3E1 /* QuantumUITests.xctest */,
+				BCA840561F0647E20087A3E1 /* LDWebView.app */,
+				BCA8406F1F0647E20087A3E1 /* LDWebViewTests.xctest */,
+				BCA8407A1F0647E20087A3E1 /* LDWebViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BCA840581F0647E20087A3E1 /* Quantum */ = {
+		BCA840581F0647E20087A3E1 /* LDWebView */ = {
 			isa = PBXGroup;
 			children = (
+				BC6AFA051F06774600337120 /* icon.png */,
+				BC6AFA041F065C0B00337120 /* Util */,
 				BCA8405C1F0647E20087A3E1 /* AppDelegate.h */,
 				BCA8405D1F0647E20087A3E1 /* AppDelegate.m */,
 				BCA8405F1F0647E20087A3E1 /* ViewController.h */,
@@ -111,6 +132,7 @@
 				BCA8406A1F0647E20087A3E1 /* Info.plist */,
 				BCA840591F0647E20087A3E1 /* Supporting Files */,
 			);
+			name = LDWebView;
 			path = Quantum;
 			sourceTree = "<group>";
 		};
@@ -122,30 +144,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BCA840721F0647E20087A3E1 /* QuantumTests */ = {
+		BCA840721F0647E20087A3E1 /* LDWebViewTests */ = {
 			isa = PBXGroup;
 			children = (
 				BCA840731F0647E20087A3E1 /* QuantumTests.m */,
 				BCA840751F0647E20087A3E1 /* Info.plist */,
 			);
+			name = LDWebViewTests;
 			path = QuantumTests;
 			sourceTree = "<group>";
 		};
-		BCA8407D1F0647E20087A3E1 /* QuantumUITests */ = {
+		BCA8407D1F0647E20087A3E1 /* LDWebViewUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BCA8407E1F0647E20087A3E1 /* QuantumUITests.m */,
 				BCA840801F0647E20087A3E1 /* Info.plist */,
 			);
+			name = LDWebViewUITests;
 			path = QuantumUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCA840551F0647E20087A3E1 /* Quantum */ = {
+		BCA840551F0647E20087A3E1 /* LDWebView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCA840831F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "Quantum" */;
+			buildConfigurationList = BCA840831F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "LDWebView" */;
 			buildPhases = (
 				BCA840521F0647E20087A3E1 /* Sources */,
 				BCA840531F0647E20087A3E1 /* Frameworks */,
@@ -155,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = Quantum;
+			name = LDWebView;
 			productName = Quantum;
-			productReference = BCA840561F0647E20087A3E1 /* Quantum.app */;
+			productReference = BCA840561F0647E20087A3E1 /* LDWebView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BCA8406E1F0647E20087A3E1 /* QuantumTests */ = {
+		BCA8406E1F0647E20087A3E1 /* LDWebViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCA840861F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "QuantumTests" */;
+			buildConfigurationList = BCA840861F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "LDWebViewTests" */;
 			buildPhases = (
 				BCA8406B1F0647E20087A3E1 /* Sources */,
 				BCA8406C1F0647E20087A3E1 /* Frameworks */,
@@ -173,14 +197,14 @@
 			dependencies = (
 				BCA840711F0647E20087A3E1 /* PBXTargetDependency */,
 			);
-			name = QuantumTests;
+			name = LDWebViewTests;
 			productName = QuantumTests;
-			productReference = BCA8406F1F0647E20087A3E1 /* QuantumTests.xctest */;
+			productReference = BCA8406F1F0647E20087A3E1 /* LDWebViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BCA840791F0647E20087A3E1 /* QuantumUITests */ = {
+		BCA840791F0647E20087A3E1 /* LDWebViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCA840891F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "QuantumUITests" */;
+			buildConfigurationList = BCA840891F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "LDWebViewUITests" */;
 			buildPhases = (
 				BCA840761F0647E20087A3E1 /* Sources */,
 				BCA840771F0647E20087A3E1 /* Frameworks */,
@@ -191,9 +215,9 @@
 			dependencies = (
 				BCA8407C1F0647E20087A3E1 /* PBXTargetDependency */,
 			);
-			name = QuantumUITests;
+			name = LDWebViewUITests;
 			productName = QuantumUITests;
-			productReference = BCA8407A1F0647E20087A3E1 /* QuantumUITests.xctest */;
+			productReference = BCA8407A1F0647E20087A3E1 /* LDWebViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +231,7 @@
 				TargetAttributes = {
 					BCA840551F0647E20087A3E1 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = REVU95QC6D;
+						DevelopmentTeam = Y8GA5HUSB6;
 						ProvisioningStyle = Automatic;
 					};
 					BCA8406E1F0647E20087A3E1 = {
@@ -224,7 +248,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BCA840511F0647E20087A3E1 /* Build configuration list for PBXProject "Quantum" */;
+			buildConfigurationList = BCA840511F0647E20087A3E1 /* Build configuration list for PBXProject "LDWebView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,9 +261,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCA840551F0647E20087A3E1 /* Quantum */,
-				BCA8406E1F0647E20087A3E1 /* QuantumTests */,
-				BCA840791F0647E20087A3E1 /* QuantumUITests */,
+				BCA840551F0647E20087A3E1 /* LDWebView */,
+				BCA8406E1F0647E20087A3E1 /* LDWebViewTests */,
+				BCA840791F0647E20087A3E1 /* LDWebViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6AFA061F06774600337120 /* icon.png in Resources */,
 				BCA840691F0647E20087A3E1 /* LaunchScreen.storyboard in Resources */,
 				BCA840661F0647E20087A3E1 /* Assets.xcassets in Resources */,
 				BCA840641F0647E20087A3E1 /* Main.storyboard in Resources */,
@@ -278,6 +303,8 @@
 			files = (
 				BCA840611F0647E20087A3E1 /* ViewController.m in Sources */,
 				BCA8405E1F0647E20087A3E1 /* AppDelegate.m in Sources */,
+				BCA8409B1F0657200087A3E1 /* WebviewProgressLine.m in Sources */,
+				BC6AFA031F06583B00337120 /* UIView+Frame.m in Sources */,
 				BCA8405B1F0647E20087A3E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,12 +330,12 @@
 /* Begin PBXTargetDependency section */
 		BCA840711F0647E20087A3E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BCA840551F0647E20087A3E1 /* Quantum */;
+			target = BCA840551F0647E20087A3E1 /* LDWebView */;
 			targetProxy = BCA840701F0647E20087A3E1 /* PBXContainerItemProxy */;
 		};
 		BCA8407C1F0647E20087A3E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BCA840551F0647E20087A3E1 /* Quantum */;
+			target = BCA840551F0647E20087A3E1 /* LDWebView */;
 			targetProxy = BCA8407B1F0647E20087A3E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -427,7 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = REVU95QC6D;
+				DEVELOPMENT_TEAM = Y8GA5HUSB6;
 				INFOPLIST_FILE = Quantum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daweiwenhua.SilkRoad.Quantum;
@@ -439,7 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = REVU95QC6D;
+				DEVELOPMENT_TEAM = Y8GA5HUSB6;
 				INFOPLIST_FILE = Quantum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daweiwenhua.SilkRoad.Quantum;
@@ -456,7 +483,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daweiwenhua.SilkRoad.QuantumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum.app/Quantum";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDWebView.app/LDWebView";
 			};
 			name = Debug;
 		};
@@ -469,7 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daweiwenhua.SilkRoad.QuantumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quantum.app/Quantum";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDWebView.app/LDWebView";
 			};
 			name = Release;
 		};
@@ -500,7 +527,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BCA840511F0647E20087A3E1 /* Build configuration list for PBXProject "Quantum" */ = {
+		BCA840511F0647E20087A3E1 /* Build configuration list for PBXProject "LDWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCA840811F0647E20087A3E1 /* Debug */,
@@ -509,29 +536,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCA840831F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "Quantum" */ = {
+		BCA840831F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "LDWebView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCA840841F0647E20087A3E1 /* Debug */,
 				BCA840851F0647E20087A3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BCA840861F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "QuantumTests" */ = {
+		BCA840861F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "LDWebViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCA840871F0647E20087A3E1 /* Debug */,
 				BCA840881F0647E20087A3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BCA840891F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "QuantumUITests" */ = {
+		BCA840891F0647E20087A3E1 /* Build configuration list for PBXNativeTarget "LDWebViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCA8408A1F0647E20087A3E1 /* Debug */,
 				BCA8408B1F0647E20087A3E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
